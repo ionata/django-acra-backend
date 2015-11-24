@@ -5,12 +5,6 @@ from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 
 
-REPORT_STATUS = (
-    ("solved", "Solved"),
-    ("unsolved", "Unsolved"),
-)
-
-
 @python_2_unicode_compatible
 class AcraException(models.Model):
     created = models.DateTimeField(auto_now_add=True)
