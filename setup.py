@@ -10,7 +10,7 @@ setup(
     author='Ionata Digital',
     author_email='webmaster@ionata.com.au',
     url='http://github.com/ionata/django-acra-backend',
-    license='GPL',
+    license='BSD',
     packages=find_packages(),
     install_requires=[
         'Django',
