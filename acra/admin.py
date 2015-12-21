@@ -12,6 +12,8 @@ class AcraExceptionAdmin(admin.ModelAdmin):
         'app_version_code',
         'brand',
         'product',
+        'created',
+        'user_crash_date',
     ]
     list_filter = [
         'android_version',
